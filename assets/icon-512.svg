@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad512" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#1ed760"/>
+      <stop offset="100%" style="stop-color:#1db954"/>
+    </radialGradient>
+  </defs>
+  
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad512)" stroke="#1db954" stroke-width="16"/>
+  
+  <!-- Main music note -->
+  <path d="M192 364c-26.4 0-48-21.6-48-48s21.6-48 48-48c8.8 0 16.8 2.4 24 6.4V160c0-8.8 7.2-16 16-16h1.6c6.4 0 12 4 14.4 9.6l64 128c2.4 4.8 1.6 10.4-1.6 14.4s-8.8 6.4-14.4 6.4H232v57.6c-11.2 9.6-24.8 14.4-40 14.4z" fill="white"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="360" cy="160" r="16" fill="white" opacity="0.9"/>
+  <circle cx="400" cy="120" r="12" fill="white" opacity="0.7"/>
+  <circle cx="336" cy="120" r="8" fill="white" opacity="0.7"/>
+  
+  <!-- Sound waves -->
+  <path d="M320 224c16-16 16-48 0-64" stroke="white" stroke-width="16" fill="none" opacity="0.8"/>
+  <path d="M352 256c24-24 24-72 0-96" stroke="white" stroke-width="16" fill="none" opacity="0.6"/>
+  <path d="M384 288c32-32 32-96 0-128" stroke="white" stroke-width="16" fill="none" opacity="0.4"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Background with gradient -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#1ed760"/>
+      <stop offset="100%" style="stop-color:#1db954"/>
+    </radialGradient>
+  </defs>
+  
+  <circle cx="90" cy="90" r="85" fill="url(#bgGradient)" stroke="#1db954" stroke-width="5"/>
+  
+  <!-- Main music note -->
+  <path d="M67.5 127.5c-9.3 0-16.875-7.575-16.875-16.875s7.575-16.875 16.875-16.875c3.1 0 5.9 0.85 8.44 2.25V56.25c0-3.1 2.53-5.625 5.625-5.625h0.56c2.25 0 4.22 1.4 5.06 3.375l22.5 45c0.84 1.69 0.56 3.66-0.56 5.06s-3.1 2.25-5.06 2.25H81.56v20.25c-3.94 3.375-8.72 5.06-14.06 5.06z" fill="white"/>
+  
+  <!-- Decorative musical elements -->
+  <circle cx="126.6" cy="56.25" r="5.625" fill="white" opacity="0.9"/>
+  <circle cx="140.6" cy="42.2" r="4.2" fill="white" opacity="0.7"/>
+  <circle cx="118.1" cy="42.2" r="2.8" fill="white" opacity="0.7"/>
+  
+  <!-- Sound waves -->
+  <path d="M112.5 78.75c5.625-5.625 5.625-16.875 0-22.5" stroke="white" stroke-width="5.625" fill="none" opacity="0.8"/>
+  <path d="M123.75 90c8.44-8.44 8.44-25.31 0-33.75" stroke="white" stroke-width="5.625" fill="none" opacity="0.6"/>
+  <path d="M135 101.25c11.25-11.25 11.25-33.75 0-45" stroke="white" stroke-width="5.625" fill="none" opacity="0.4"/>
+</svg>
